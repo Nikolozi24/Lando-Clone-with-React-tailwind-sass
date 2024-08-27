@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+.btn-primary {
+  background-color: #3287a8;
+  font-family: "New Amsterdam", sans-serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: #3287a8;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #3287a8;
+}
+
+.btn-blue {
+  background-color: #05a2fc;
+  font-family: "New Amsterdam", sans-serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+}
+.btn-blue:hover {
+  background-color: white;
+  color: #05a2fc;
+  transition: all 1s ease-in-out;
+  border: 1px solid #05a2fc;
+}
+
+.btn-pink {
+  background-color: #f405fc;
+  font-family: "New Amsterdam", sans-serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+}
+.btn-pink:hover {
+  background-color: white;
+  color: #f405fc;
+  transition: all 1s ease-in-out;
+  border: 1px solid #f405fc;
+}
+
+.btn-outlined-pink {
+  color: #f405fc;
+  background-color: white;
+  font-family: "New Amsterdam", sans-serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #f405fc;
+}
+.btn-outlined-pink:hover {
+  background-color: #f405fc;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #f405fc;
+}
+
+.btn-outlined-black {
+  color: #030303;
+  background-color: white;
+  font-family: "New Amsterdam", sans-serif;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  border: 1px solid #030303;
+}
+.btn-outlined-black:hover {
+  background-color: #030303;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid #030303;
+}

@@ -1,0 +1,12 @@
+@for $i  from 1 through 12{
+    .grid-col-#{$i}{
+        grid-column: $i;
+    }
+}
+$displays:('flex', 'grid');
+@each $item in $displays{
+    @debug $item;
+ display-#{$item}{
+        display: $item;
+       }
+}

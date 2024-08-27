@@ -1,0 +1,30 @@
+@mixin btn($button_color:white){
+    background-color:$button_color;
+    font-family: "New Amsterdam", sans-serif;
+    padding: $base_padding 2*$base_padding;
+    border-radius: $rounded_lg;
+}
+@each $key, $val in $colors{
+    .btn-#{$key}{
+        @include btn($val);
+        color:white;
+        border: 0;
+        &:hover{
+            background-color:white;
+            color: $val;
+            transition: all 1s ease-in-out;
+            border: 1px solid $val
+        }
+    }
+    .btn-outlined-#{$key}{
+        color:$val;
+          @include btn();
+        border: $base_border_ticknes solid $val;
+        &:hover{
+            background-color:$val;
+            color: white;
+            transition: all 0.5s ease-in-out;
+            border: 1px solid $val
+        }
+    }
+}
